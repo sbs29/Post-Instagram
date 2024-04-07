@@ -1,0 +1,118 @@
+body {
+    height: 100%;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    width: 600px;
+    font-size: 50px;
+}
+
+.body-header {
+    display: flex;
+    height: 10%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-content {
+    display: flex;
+    height: 90%;
+    background-color:  #e5e7e9;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post {
+    width: 600px;
+    height: 600px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: silver;
+    border-radius: 25px;
+}
+
+.post-header {
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    width: 10%;
+    text-align: center;
+}
+
+.title {
+    width: 90%;
+    margin-left: 20px;
+}
+
+#post-content1 {
+    background-image: url("./images/foto1.jpg");
+}
+
+#post-content2 {
+    background-image: url("./images/foto2.jpg");
+}
+
+#post-content3 {
+    background-image: url("./images/foto3.jpg");
+}
+
+#post-content4 {
+    background-image: url("./images/foto4.jpg");
+}
+
+#post-content5 {
+    background-image: url("./images/foto5.jpg");
+}
+
+#post-content6 {
+    background-image: url("./images/foto6.jpg");
+}
+
+#post-content7 {
+    background-image: url("./images/foto7.jpg");
+}
+
+#post-content8 {
+    background-image: url("./images/foto8.jpg");
+}
+
+#post-content9 {
+    background-image: url("./images/foto9.jpg");
+}
+
+#post-content10 {
+    background-image: url("./images/foto10.jpg");
+}
+
+div[id*="post-content"] {
+    height: 75%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    border-top: 1px solid  #bdc3c7 ;
+    border-bottom: 1px solid  #bdc3c7 ;
+}
+
+
+.post-footer {
+    height: 15%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    margin-left: 10px;
+    font-size: 20px;
+}
